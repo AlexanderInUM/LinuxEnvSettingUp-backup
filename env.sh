@@ -34,6 +34,7 @@ sudo apt-get install -y manpages-dev
 sudo aptitude install -y libopencv-dev python3-opencv
 python3 -c "import cv2; print(cv2.__version__)"
 
+# NPM Global Packages
 sudo npm install -g servez
 sudo npm install -g cryptee
 sudo npm install -g splitee
