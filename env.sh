@@ -43,8 +43,11 @@ sudo aptitude install -y g++
 sudo aptitude install -y build-essential
 sudo aptitude install -y cmake
 sudo apt-get install -y manpages-dev
+sudo apt install -y python3-pip python-setuptools python3-setuptools
+sudo apt-get install -y python3-dev python-dev
 sudo aptitude install -y libopencv-dev python3-opencv
 python3 -c "import cv2; print(cv2.__version__)"
+sudo apt-get install -y libomp5
 
 # LateX Related Tools
 sudo apt install -y evince

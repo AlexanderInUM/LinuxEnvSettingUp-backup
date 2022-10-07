@@ -15,6 +15,17 @@ Here are some background environments:
 2. Ubuntu 20.04 Focal from official website
 3. With enough space for Ubuntu virtual machine (or a real one if you don't want to install VM)
 
+# Note
+
+#### 1. CARLA On VM
+
+While running CARLA built file `CarlaUE4.sh`, VMWare virtual machine does not support GPU directly, so the running of this application will be unsuccessful. [Ref](https://blog.csdn.net/passenger12234/article/details/120045638)
+One suggestion to solve this problem is that you can run `CarlaUE4` on your Windows or non-virtual-machine environment which can be served as a server side of CARLA, as you are now in VMWare Work Station's environment that meets the problem I pointed above. Then `Change the default IP address form 127.0.0.1 to the ones on the environment you are running CarlaUE4` to successfully run the scripts in `PythonAPI` on your virtual Linux Ubuntu environment with ROS to continue your work.
+
+
+
+
+
 
 <br>
 <br>
