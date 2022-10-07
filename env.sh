@@ -46,6 +46,21 @@ sudo apt-get install -y manpages-dev
 sudo aptitude install -y libopencv-dev python3-opencv
 python3 -c "import cv2; print(cv2.__version__)"
 
+# LateX Related Tools
+sudo apt install -y evince
+sudo apt install -y texlive-latex-extra
+sudo apt install -y gedit-latex-plugin
+sudo apt install -y lyx
+sudo apt install -y latexila
+sudo apt install -y kile
+sudo apt install -y texstudio
+sudo apt install -y texmaker
+sudo apt install -y gummi
+#gedit hello-world.tex #edit some lateX content into it
+#pdflatex hello-world.tex #compile the tex file created above
+#evince hello-world.pdf #view the compiled file in evince
+
+
 # NPM Global Packages
 sudo npm install -g servez
 sudo npm install -g cryptee

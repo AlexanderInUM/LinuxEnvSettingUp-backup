@@ -37,3 +37,9 @@ sysinfo.txt
 
 # Builds
 *.apk
+
+# LateX compiling files
+*.pdf
+*.log
+*.aux
+*.out

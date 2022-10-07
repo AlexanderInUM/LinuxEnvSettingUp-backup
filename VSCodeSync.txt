@@ -1,0 +1,3 @@
+1. Install VS Code on Ubuntu;
+2. Sync Settings Using Official Github Account With Hardest PWD
+3. Settings -> Keyboard Shortcuts -> Replace the content with the ones in this repo
