@@ -39,6 +39,7 @@ sudo apt install mariadb-server -y mariadb-client
 sudo apt install -y rpm
 sudo apt install -y zip
 sudo apt install -y net-tools
+sudo apt install -y openssh-server
 sudo aptitude install -y clang
 sudo aptitude install -y g++
 sudo aptitude install -y build-essential
