@@ -38,3 +38,6 @@ cat RESULT_DIR_OF_ABOVE
 roslaunch carla_ros_bridge carla_ros_bridge.launch host:=172.19.240.1
 #Try H to see more while driving the car
 
+
+# Other
+#rosrun rviz rviz #visualize
