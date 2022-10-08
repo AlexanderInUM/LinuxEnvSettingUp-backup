@@ -3,6 +3,10 @@ pip3 install --upgrade pip
 pip install --upgrade pip
 pip install --user pygame numpy
 pip3 install --user pygame numpy
+pip install --user transforms3d
+pip3 install --user transforms3d
+pip install opencv-contrib-python
+pip3 install opencv-contrib-python
 
 # CARLA Installation (Method A)
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1AF1527DE64CB8D9
