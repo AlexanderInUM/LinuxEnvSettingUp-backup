@@ -40,4 +40,5 @@ roslaunch carla_ros_bridge carla_ros_bridge.launch host:=172.19.240.1
 
 
 # Other
-#rosrun rviz rviz #visualize
+#rosrun rviz rviz #visualize #Refer:http://wiki.ros.org/rviz/UserGuide
+
