@@ -16,7 +16,9 @@ conda install numpy #install some packages on this vr-environment
 #conda remove --name myenv numpy #remove a package on this vr-env 
 #conda env remove --name myenv #remove the this vr-env totally
 
-
+# If you want to install empy in your conda env, run the commands as follows: 
+#conda install -c conda-forge empy
+#conda install -c "conda-forge/label/cf202003" empy
 
 
 
