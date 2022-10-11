@@ -12,12 +12,13 @@ Usually, the executing order is:
 1. env.sh
 2. sshd.sh
 3. conda.sh
-4. carla.sh
-5. ros.sh
-6. ros-bridge.sh
-7. emptyDust.sh
-8. git.sh
-9. VS Code Settings
+4. case.sh
+5. carla.sh
+6. ros.sh
+7. ros-bridge.sh
+8. emptyDust.sh
+9. git.sh
+10. VS Code Settings
 
 <br>
 <br>
