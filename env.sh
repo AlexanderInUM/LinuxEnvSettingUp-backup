@@ -45,6 +45,7 @@ sudo aptitude install -y clang
 sudo aptitude install -y g++
 sudo aptitude install -y build-essential
 sudo aptitude install -y cmake
+sudo apt install -y terminator
 sudo apt-get install -y manpages-dev
 sudo apt install -y python3-pip python-setuptools python3-setuptools
 sudo apt-get install -y python3-dev python-dev
