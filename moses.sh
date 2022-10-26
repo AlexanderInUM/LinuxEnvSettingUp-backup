@@ -63,6 +63,8 @@ sudo update-alternatives --config g++
 g++ -v
 ######################################################################
 
+
+
 ## Based on gcc4.9,g++4.9,Python2.7(use conda to change python version)
 ## Download boost1.64 from online, decompress it and place it into smt
 cd boost_1_64_0/
@@ -85,6 +87,8 @@ sudo make
 sudo make install
 cd ..
 
+
+#####################Failed!!!####################################
 ## Install Moses
 cd mosesdecoder
 make -f contrib/Makefiles/install-dependencies.gmake
@@ -100,3 +104,6 @@ make -f contrib/Makefiles/install-dependencies.gmake
 ## https://achrafothman.net/site/how-to-install-moses-statistical-machine-translation-in-ubuntu/
 ## https://stackoverflow.com/questions/68805002/i-need-to-install-gcc4-9-on-ubuntu-20-04-matlab-mex
 ## https://achrafothman.net/site/how-to-downgrade-gcc-and-g-in-ubuntu/
+
+
+cat corpus/train | cut -f 2 | ../mosesdecoder/scripts/tokenizer/tokenizer.perl -l en > corpus/train.tok.en
