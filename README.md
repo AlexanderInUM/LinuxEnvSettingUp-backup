@@ -6,6 +6,7 @@ Every time I face some problems on my virtual machine crashing I have to redo lo
 
 This is the repository that speeds my initialization and installation process of a new Linux environment.
 
+
 <br>
 
 Usually, the executing order is:
